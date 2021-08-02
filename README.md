@@ -5,6 +5,7 @@ Website Name: TBD
 # User Experience:
 
 Users should be able to search for random and specific advice
+
 Users should be able to rate the advice
 
 
