@@ -1,0 +1,41 @@
+
+body{
+    font-size: 1.2rem;
+    background-color: turquoise;
+    padding: 2rem;
+}
+
+
+div.header h1 {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.search-container {
+    text-align: center;
+} 
+
+#generatorButton{
+    font-size: 1.1rem;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+div.container h3{
+    text-align: center;
+}
+
+.voting-section{
+    text-align: center;
+}
+
