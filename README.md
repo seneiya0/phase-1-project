@@ -1,6 +1,6 @@
 # phase-1-project :
 
-Website Name: TBD
+Website Name: Advice4All
 
 # User Experience:
 
@@ -18,6 +18,7 @@ A search bar where users can enter a word to search for specific advice
 
 A thumbs up & thumbs down button for users to rate the advice they receive
 
+A popup that says "Thank you for your feedback" when the users rate the advice
 
 # Links
 API Data: https://api.adviceslip.com/#object-message
