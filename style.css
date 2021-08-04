@@ -13,16 +13,33 @@ h1 {
     margin-bottom: 4px;
   }
 
+h2{
+    font-family: 'Quicksand', sans-serif;
+}  
+
 h3{
     font-family: 'Quicksand', sans-serif;
 }
 
 
-p{
-    font-family: 'Quicksand', sans-serif;
-    font-size: larger;
+h4{
+    font-family: 'Architects Daughter', cursive;
+    font-size: large;
+    font-weight: bold;
 }
 
+p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;  
+    
+}
+
+h5{
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
 
 
 
@@ -49,7 +66,7 @@ div.header h1 {
     background-color: black;
     color: white;
     padding: 0.7rem 1.2rem;
-    border-radius: 1.5rem;
+    border-radius: 1.0rem;
     cursor: pointer;
     outline: 0;
 }
@@ -74,6 +91,7 @@ div.container h3{
 
 #likebtn:hover{
     padding-inline: 5px;
+    background: white;
 }
 
 #dislikebtn{
@@ -83,6 +101,7 @@ div.container h3{
 
 #dislikebtn:hover{
     padding-inline: 5px;
+    background: white;
 }
 
 #likebtn:active{
@@ -99,15 +118,15 @@ div.container h3{
 
 #search-box{
     font-family: 'Quicksand', sans-serif;
-    width: 50;
+    width: 60;
     position: relative;
     cursor: pointer;
     padding: 0.7rem 1.2rem;
-    border-radius: 1.5rem;
+    border-radius: 1.0rem;
 }
 
 #search-box:hover{
-    padding-block: 10px;
+    padding-block: 15px;
 }
 
 #search-button{
@@ -117,7 +136,7 @@ div.container h3{
     background-color: black;
     color: white;
     padding: 0.7rem 1.2rem;
-    border-radius: 1.5rem;
+    border-radius: 1.0rem;
     cursor: pointer;
     outline: 0;
 }
@@ -132,5 +151,51 @@ div.voting-section input{
     border: none;
     color: white;
     font-size: 20px;
+}
+
+#name{
+    font-family: 'Quicksand', sans-serif;
+    width: 50;
+    position: relative;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.0rem;
+}
+
+#name:hover{
+    padding-block: 15px;
+}
+
+#comment{
+    font-family: 'Quicksand', sans-serif;
+    width: 200px;
+    position: relative;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.0rem;
+}
+
+#comment:hover{
+    padding-block: 15px;
+}
+
+div.review-container{
+    text-align: center;
+}
+
+div.review-container button {
+    font-size: 1.1rem;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 1.0rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+div.review-container button:hover{
+    padding-block: 10px;
 }
 
