@@ -1,3 +1,4 @@
+
 const randomAdvice = 'https://api.adviceslip.com/advice'
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -35,6 +36,7 @@ function likeTheAdvice(){
     likeBtn.addEventListener('click', ()=>{
     input1.value = parseInt(input1.value) + 1
     input1.style.color = "#12ff00"
+    Swal.fire('Thank you for your feedback!')
 })
 }
 
@@ -44,5 +46,7 @@ function dislikeTheAdvice(){
     dislikeBtn.addEventListener('click', ()=>{
     input2.value = parseInt(input2.value) + 1
     input2.style.color = "#ff0000"
+    Swal.fire('Thank you for your feedback!')
 })
 }
+
