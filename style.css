@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    font-size: 1.2rem;
+    background-color: turquoise;
+    background-color: rgb(18, 221, 194);
+    padding: 2rem;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+h3{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+}
+
+
 div.header h1 {
     text-align: center;
 }
@@ -11,3 +38,80 @@ div.header h1 {
 .search-container {
     text-align: center;
 }
+
+#generatorButton{
+    font-size: 1.1rem;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+#generatorButton:hover{
+    padding-block: 20px;
+
+}
+
+div.container h3{
+    text-align: center;
+}
+.voting-section{
+    text-align: center;
+}
+
+#likebtn{
+    font-size: 20px;
+}
+
+#dislikebtn{
+    font-size: 20px;
+}
+
+
+#likebtn:active{
+    color: purple;
+    transform: scale(1.4);
+
+}
+
+#dislikebtn:active{
+    color: purple;
+    transform: scale(1.4);
+
+}
+
+#search-box{
+    width: 50;
+    position: relative;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+}
+
+#search-button{
+    font-size: 1.1rem;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+#search-button:hover{
+    padding-block: 20px;
+}
+
+div.voting-section input{
+    width: 30px;
+    border: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+
