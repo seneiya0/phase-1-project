@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function genAdvice() {
 const adviceButton = document.querySelector('button')
 adviceButton.addEventListener('click', () => {
+    const adviceContainer = document.querySelector('.rand-advice')
+    adviceContainer.textContent = ""
+    adviceContainer.innerHTML = '<h3>loading...</h3>'
     fetch(randomAdvice)
     .then(r => r.json())
     .then(advice => showAdvice(advice))
@@ -18,9 +21,10 @@ adviceButton.addEventListener('click', () => {
 )}
 
 function showAdvice(advice){
-    const adviceButton = document.querySelector('.button')
+    const adviceButton = document.querySelector('.rand-advice')
     const adviceText = document.createElement('h2')
     adviceText.textContent = `${advice.slip.advice}`
+    adviceButton.textContent = ""
     adviceButton.append(adviceText)
 }
 
