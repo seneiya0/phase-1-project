@@ -52,7 +52,7 @@ div.header h1 {
 }
 
 #generatorButton:hover{
-    padding-block: 20px;
+    padding-block: 15px;
 
 }
 
@@ -65,26 +65,33 @@ div.container h3{
 
 #likebtn{
     font-size: 20px;
+    background: none;
 }
 
 #dislikebtn{
     font-size: 20px;
+    background: none;
+}
+
+#likebtn:hover{
+    padding-inline: 5px;
 }
 
 
 #likebtn:active{
-    color: purple;
+    color: green;
     transform: scale(1.4);
 
 }
 
 #dislikebtn:active{
-    color: purple;
+    color: red;
     transform: scale(1.4);
 
 }
 
 #search-box{
+    font-family: 'Quicksand', sans-serif;
     width: 50;
     position: relative;
     cursor: pointer;
@@ -105,13 +112,14 @@ div.container h3{
 }
 
 #search-button:hover{
-    padding-block: 20px;
+    padding-block: 15px;
 }
 
 div.voting-section input{
-    width: 30px;
+    background-color: black;
+    width: 35px;
     border: none;
-    color: blueviolet;
+    color: white;
     font-size: 20px;
 }
 
