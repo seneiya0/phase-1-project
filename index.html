@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Advice4All</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Advice4All</h1>
+</div>
+<div class="button">
+    <button id="generatorButton">GET RANDOM ADVICE</button>
+    <div class= "randomAdvice"> </div>
+</div>
+<div class = "container">
+    <h3>Rate This Advice</h3>
+</div>
+
+<div class="voting-section">
+    <button id="likebtn">
+        <i class="fa fa-thumbs-up"></i>
+    </button>
+    <input type="number" id= "input1" value="0" name="">
+    <button id="dislikebtn">
+        <i class="fa fa-thumbs-down"></i>
+    </button>
+    <input type="number" id= "input2" value="0" name="">
+</div>
+
+
+<div class="search-container">
+    <form id=form>
+        <input id="search-box" type="text" placeholder="Search for advice...">
+        <button id="search-button" type="submit"> SEARCH </button>
+        <div id = search-results> </div>
+    </form>
+</div>
+
+<div class="review-container">
+    <h4>Leave us a Review!</h4>
+    <input type="text" placeholder="Enter your name..." id="name">
+    <input type="text" aria-rowcount="5" placeholder=" Write a Review..." id="comment"> 
+    <button onclick="addReview()">SUBMIT</button>
+
+    </div>
+    <ul class="list"></ul>
+</div>
+
+</body>
+</html>
+
